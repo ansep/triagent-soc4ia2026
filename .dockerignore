@@ -1,0 +1,6 @@
+# keep API keys out of the image: they reach the container through env_file
+**/.env
+**/.env.*
+**/__pycache__
+results/
+.hf_cache/

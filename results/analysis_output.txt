@@ -1,0 +1,169 @@
+  gemma4__monolithic__rep1: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__monolithic__rep2: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__monolithic__rep3: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__monolithic__rep4: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__monolithic__rep5: served nvidia/Gemma-4-26B-A4B-NVFP4
+  qwen38__monolithic__rep1: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__monolithic__rep2: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__monolithic__rep3: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__monolithic__rep4: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__monolithic__rep5: served unsloth/Qwen3.8-27B-NVFP4
+
+[gemma4]
+
+PROBE A: 5 repetitions at T=0, 100 common instances
+  identical output text in every repetition: 0/100
+  identical scores in every repetition:      57/100
+  gemma4__monolithic__rep1: diagnosis 1.00  substance 0.71  dose 0.13
+  gemma4__monolithic__rep2: diagnosis 1.00  substance 0.72  dose 0.05
+  gemma4__monolithic__rep3: diagnosis 1.00  substance 0.68  dose 0.10
+  gemma4__monolithic__rep4: diagnosis 1.00  substance 0.67  dose 0.10
+  gemma4__monolithic__rep5: diagnosis 1.00  substance 0.71  dose 0.14
+
+[qwen38]
+
+PROBE A: 5 repetitions at T=0, 100 common instances
+  identical output text in every repetition: 16/100
+  identical scores in every repetition:      85/100
+  qwen38__monolithic__rep1: diagnosis 1.00  substance 0.70  dose 0.00
+  qwen38__monolithic__rep2: diagnosis 0.99  substance 0.73  dose 0.00
+  qwen38__monolithic__rep3: diagnosis 0.99  substance 0.71  dose 0.00
+  qwen38__monolithic__rep4: diagnosis 1.00  substance 0.71  dose 0.00
+  qwen38__monolithic__rep5: diagnosis 0.99  substance 0.75  dose 0.00
+  gemma4__full__seed11: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed110: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed121: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed132: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed143: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed154: P1_007 agent error scored as failure: 1 validation error for ReasoningStep
+confidence
+  Input should be a valid number [type=float_type, i
+  gemma4__full__seed154: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed165: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed176: P4_013 agent error scored as failure: 1 validation error for ReasoningStep
+confidence
+  Input should be a valid number [type=float_type, i
+  gemma4__full__seed176: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed187: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed198: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed209: P4_013 agent error scored as failure: 1 validation error for ReasoningStep
+confidence
+  Input should be a valid number [type=float_type, i
+  gemma4__full__seed209: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed22: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed220: P5_010 agent error scored as failure: 1 validation error for ReasoningStep
+confidence
+  Input should be a valid number [type=float_type, i
+  gemma4__full__seed220: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed33: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed44: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed55: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed66: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed77: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed88: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__full__seed99: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed11: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed110: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed121: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed132: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed143: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed154: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed165: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed176: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed187: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed198: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed209: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed22: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed220: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed33: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed44: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed55: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed66: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed77: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed88: served nvidia/Gemma-4-26B-A4B-NVFP4
+  gemma4__no_knowledge__seed99: served nvidia/Gemma-4-26B-A4B-NVFP4
+  qwen38__full__seed11: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__full__seed22: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__full__seed33: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__full__seed44: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__full__seed55: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__no_knowledge__seed11: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__no_knowledge__seed22: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__no_knowledge__seed33: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__no_knowledge__seed44: served unsloth/Qwen3.8-27B-NVFP4
+  qwen38__no_knowledge__seed55: served unsloth/Qwen3.8-27B-NVFP4
+
+PROBE B: gateway accuracy
+  gemma4 full (100 instances x 20 seeds)
+    per seed: seed11=0.41, seed110=0.46, seed121=0.42, seed132=0.47, seed143=0.42, seed154=0.45, seed165=0.43, seed176=0.45, seed187=0.43, seed198=0.43, seed209=0.47, seed22=0.39, seed220=0.41, seed33=0.42, seed44=0.44, seed55=0.46, seed66=0.43, seed77=0.43, seed88=0.41, seed99=0.37
+    mean 0.430  sd 0.026  range 0.37-0.47
+    instances by success count: 0/20: 30, 1/20: 10, 2/20: 8, 3/20: 2, 4/20: 0, 5/20: 0, 6/20: 1, 7/20: 3, 8/20: 4, 9/20: 1, 10/20: 0, 11/20: 0, 12/20: 1, 13/20: 2, 14/20: 1, 15/20: 2, 16/20: 3, 17/20: 2, 18/20: 1, 19/20: 2, 20/20: 27
+    ICC(1) = 0.75: 2000 runs = 130 effective observations (cap with unlimited seeds: 132)
+    first k seeds: mean  sd  95% CI half-width  IQM
+      k=2  0.435  0.035  ±0.318  0.435
+      k=3  0.430  0.026  ±0.066  0.430
+      k=4  0.440  0.029  ±0.047  0.440
+      k=5  0.436  0.027  ±0.034  0.433
+      k=6  0.438  0.025  ±0.026  0.438
+      k=7  0.437  0.023  ±0.021  0.436
+      k=8  0.439  0.022  ±0.018  0.438
+      k=9  0.438  0.020  ±0.016  0.436
+      k=10 0.437  0.019  ±0.014  0.435
+      k=11 0.440  0.021  ±0.014  0.439
+      k=12 0.436  0.025  ±0.016  0.435
+      k=13 0.434  0.025  ±0.015  0.433
+      k=14 0.433  0.024  ±0.014  0.431
+      k=15 0.433  0.023  ±0.013  0.432
+      k=16 0.435  0.023  ±0.012  0.434
+      k=17 0.435  0.023  ±0.011  0.433
+      k=18 0.434  0.022  ±0.011  0.433
+      k=19 0.433  0.022  ±0.011  0.432
+      k=20 0.430  0.026  ±0.012  0.430
+  gemma4 no_knowledge (100 instances x 20 seeds)
+    per seed: seed11=0.20, seed110=0.24, seed121=0.23, seed132=0.27, seed143=0.18, seed154=0.23, seed165=0.22, seed176=0.15, seed187=0.20, seed198=0.16, seed209=0.23, seed22=0.21, seed220=0.27, seed33=0.21, seed44=0.20, seed55=0.20, seed66=0.23, seed77=0.21, seed88=0.20, seed99=0.21
+    mean 0.212  sd 0.030  range 0.15-0.27
+    instances by success count: 0/20: 42, 1/20: 11, 2/20: 9, 3/20: 2, 4/20: 2, 5/20: 3, 6/20: 0, 7/20: 7, 8/20: 2, 9/20: 0, 10/20: 0, 11/20: 5, 12/20: 4, 13/20: 3, 14/20: 3, 15/20: 2, 16/20: 1, 17/20: 1, 18/20: 2, 19/20: 1, 20/20: 0
+    ICC(1) = 0.44: 2000 runs = 214 effective observations (cap with unlimited seeds: 227)
+    first k seeds: mean  sd  95% CI half-width  IQM
+      k=2  0.220  0.028  ±0.254  0.220
+      k=3  0.223  0.021  ±0.052  0.223
+      k=4  0.235  0.029  ±0.046  0.235
+      k=5  0.224  0.035  ±0.044  0.223
+      k=6  0.225  0.031  ±0.033  0.225
+      k=7  0.224  0.029  ±0.027  0.224
+      k=8  0.215  0.037  ±0.031  0.220
+      k=9  0.213  0.035  ±0.027  0.216
+      k=10 0.208  0.037  ±0.027  0.210
+      k=11 0.210  0.036  ±0.024  0.213
+      k=12 0.210  0.034  ±0.022  0.215
+      k=13 0.215  0.037  ±0.022  0.217
+      k=14 0.214  0.035  ±0.020  0.216
+      k=15 0.213  0.034  ±0.019  0.214
+      k=16 0.212  0.033  ±0.018  0.212
+      k=17 0.214  0.033  ±0.016  0.214
+      k=18 0.213  0.032  ±0.016  0.214
+      k=19 0.213  0.031  ±0.015  0.213
+      k=20 0.212  0.030  ±0.014  0.212
+  qwen38 full (100 instances x 5 seeds)
+    per seed: seed11=0.33, seed22=0.36, seed33=0.37, seed44=0.35, seed55=0.35
+    mean 0.352  sd 0.015  range 0.33-0.37
+    instances by success count: 0/5: 40, 1/5: 15, 2/5: 14, 3/5: 8, 4/5: 6, 5/5: 17
+    ICC(1) = 0.53: 500 runs = 160 effective observations (cap with unlimited seeds: 189)
+    first k seeds: mean  sd  95% CI half-width  IQM
+      k=2  0.345  0.021  ±0.191  0.345
+      k=3  0.353  0.021  ±0.052  0.353
+      k=4  0.352  0.017  ±0.027  0.355
+      k=5  0.352  0.015  ±0.018  0.353
+  qwen38 no_knowledge (100 instances x 5 seeds)
+    per seed: seed11=0.15, seed22=0.13, seed33=0.06, seed44=0.12, seed55=0.07
+    mean 0.106  sd 0.039  range 0.06-0.15
+    instances by success count: 0/5: 73, 1/5: 11, 2/5: 10, 3/5: 2, 4/5: 4, 5/5: 0
+    ICC(1) = 0.31: 500 runs = 225 effective observations (cap with unlimited seeds: 326)
+    first k seeds: mean  sd  95% CI half-width  IQM
+      k=2  0.140  0.014  ±0.127  0.140
+      k=3  0.113  0.047  ±0.117  0.113
+      k=4  0.115  0.039  ±0.062  0.125
+      k=5  0.106  0.039  ±0.049  0.107
+  gemma4 Full minus No-Knowledge per seed: seed11=+0.21, seed110=+0.22, seed121=+0.19, seed132=+0.20, seed143=+0.24, seed154=+0.22, seed165=+0.21, seed176=+0.30, seed187=+0.23, seed198=+0.27, seed209=+0.24, seed22=+0.18, seed220=+0.14, seed33=+0.21, seed44=+0.24, seed55=+0.26, seed66=+0.20, seed77=+0.22, seed88=+0.21, seed99=+0.16
+  qwen38 Full minus No-Knowledge per seed: seed11=+0.18, seed22=+0.23, seed33=+0.31, seed44=+0.23, seed55=+0.28
+done (analyze)

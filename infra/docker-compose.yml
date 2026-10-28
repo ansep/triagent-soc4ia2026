@@ -1,0 +1,19 @@
+# CPU runner: the LLMs are served elsewhere by vLLM (OpenAI-compatible endpoints).
+# Normally driven by infra/run_probes.sh, which sets HOST_UID/HOST_GID.
+services:
+  triagent-runner:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile
+    image: triagent-soc4ia2026-runner
+    env_file: ../backend/.env          # API keys (OpenWeatherMap); see backend/.env.example
+    environment:
+      - HOME=/tmp
+      - HF_HOME=/hf                    # sentence-transformers / Hugging Face cache
+    user: "${HOST_UID:-1000}:${HOST_GID:-1000}"   # results owned by the host user, not by root
+    network_mode: host                 # vLLM endpoints are reached through the host network
+    volumes:
+      - ../datasets:/app/datasets
+      - ../results:/app/results
+      - ../data:/app/data              # FAISS rule store
+      - ../.hf_cache:/hf

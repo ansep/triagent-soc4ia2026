@@ -1,0 +1,15 @@
+{
+  "run_id": "5a44ec9e",
+  "backbone": "nvidia/Gemma-4-26B-A4B-NVFP4",
+  "provider": "vllm",
+  "ablation": "full",
+  "started_at": "2026-10-09T14:42:46.761829+00:00",
+  "ended_at": "2026-10-09T17:32:50.961887+00:00",
+  "total_processed": 100,
+  "total_failed": 0,
+  "dataset_sha256": "3cc39b0f866a81a01071e5b13bfd6d2b139abf1a1f7003c68cffd80d5adaf614",
+  "input_path": "/app/datasets/instances.jsonl",
+  "seed": "77",
+  "served_model_start": "nvidia/Gemma-4-26B-A4B-NVFP4",
+  "served_model_end": "nvidia/Gemma-4-26B-A4B-NVFP4"
+}

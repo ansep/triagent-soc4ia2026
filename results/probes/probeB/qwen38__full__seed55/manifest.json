@@ -1,0 +1,15 @@
+{
+  "run_id": "d143a9ca",
+  "backbone": "unsloth/Qwen3.8-27B-NVFP4",
+  "provider": "vllm",
+  "ablation": "full",
+  "started_at": "2026-10-11T14:17:16.615674+00:00",
+  "ended_at": "2026-10-11T14:44:13.180508+00:00",
+  "total_processed": 3,
+  "total_failed": 0,
+  "dataset_sha256": "3cc39b0f866a81a01071e5b13bfd6d2b139abf1a1f7003c68cffd80d5adaf614",
+  "input_path": "/app/datasets/instances.jsonl",
+  "seed": "55",
+  "served_model_start": "unsloth/Qwen3.8-27B-NVFP4",
+  "served_model_end": "unsloth/Qwen3.8-27B-NVFP4"
+}
