@@ -1,0 +1,16 @@
+{
+  "title": "TriAgent: code, instances and runs for the SOC4IA 2026 paper \"One Run Is Not Evidence\"",
+  "upload_type": "software",
+  "description": "Code, instances and all runs behind the SOC4IA 2026 position paper \"One Run Is Not Evidence: Rethinking the Evaluation of Multi-Agent LLM Architectures\": the TriAgent implementation (Knowledge, Reasoning and Execution agents on LangGraph), the rule store, 100 instances of five crop-disease processes with their ground truth, the scoring and analysis scripts (per-seed accuracy, ICC(1), effective sample size, convergence, interquartile mean), and about 6,000 runs: Full vs No-Knowledge under 20 seeds on Gemma-4-26B-A4B and 5 on Qwen3.8-27B, and a single-call baseline repeated five times at temperature 0.",
+  "creators": [
+    {"name": "Sepielli, Andrea", "affiliation": "Sapienza Università di Roma", "orcid": "0009-0003-2247-6691"},
+    {"name": "Grati, Rima", "affiliation": "Zayed University", "orcid": "0000-0002-6995-465X"},
+    {"name": "Boukadi, Khouloud", "affiliation": "University of Sfax", "orcid": "0000-0002-6744-711X"},
+    {"name": "Napoleone, Marco", "affiliation": "Università degli Studi Roma Tre", "orcid": "0009-0008-8312-0257"},
+    {"name": "Monti, Flavia", "affiliation": "Sapienza Università di Roma", "orcid": "0000-0003-3349-7861"},
+    {"name": "Merialdo, Paolo", "affiliation": "Università degli Studi Roma Tre", "orcid": "0000-0002-3852-8092"},
+    {"name": "Mecella, Massimo", "affiliation": "Sapienza Università di Roma", "orcid": "0000-0002-9730-8882"}
+  ],
+  "license": "MIT",
+  "keywords": ["agentic AI", "multi-agent architectures", "experimental methodology", "reproducibility", "service composition", "smart agriculture"]
+}

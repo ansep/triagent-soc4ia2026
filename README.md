@@ -1,6 +1,6 @@
 # TriAgent: repeated-run probes (SOC4IA 2026)
 
-Code, instances and all runs behind the experiments of the SOC4IA 2026 position paper *How Do We Know Three Agents Are Enough?* (A. Sepielli, R. Grati, K. Boukadi, M. Napoleone, F. Monti, P. Merialdo, M. Mecella).
+Code, instances and all runs behind the experiments of the SOC4IA 2026 position paper *One Run Is Not Evidence: Rethinking the Evaluation of Multi-Agent LLM Architectures* (A. Sepielli, R. Grati, K. Boukadi, M. Napoleone, F. Monti, P. Merialdo, M. Mecella).
 
 TriAgent is a three-agent architecture for crop-disease process automation, implemented with LangGraph:
 
